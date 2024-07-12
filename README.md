@@ -3,8 +3,9 @@ This resource is a simple yet effective script designed to dynamically adjust se
 
 ## Installation
 1. Download the latest release.
-2. Drag DiscordAPI into your resource folder.
-3. Go to your server.cfg, and write "start automated-server-slots".
+2. Drag automated-server-slots into your resource folder.
+3. Edit the config.lua file to your liking.
+4. Go to your server.cfg, and write "start automated-server-slots".
 
 That's it! If everything went correctly, the next time you start your server, you'll see automated-server-slots outputting messages within the console.
 
