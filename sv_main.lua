@@ -35,7 +35,7 @@ end)
 
 AddEventHandler("playerDropped", function()
     currentPlayerCount = currentPlayerCount - 1
-    if currentPlayerCount > currentPlayerSlots - slotIncrement then return end
+    if currentPlayerCount > (currentPlayerSlots - slotIncrement) then return end
 
     currentPlayerSlots = currentPlayerSlots - slotIncrement
     if currentPlayerSlots < startingSlots then 
